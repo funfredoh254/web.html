@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Registration Form - In Table</title>
+    <style>
+        body { font-family: Arial; background: #f2f2f2; padding: 20px; }
+        table { background: white; margin: auto; padding: 20px; border-radius: 8px; border-collapse: collapse; width: 600px; }
+        td { padding: 10px; border: 1px solid #ccc; }
+        h2 { text-align: center; }
+        input[type="text"], input[type="date"], input[type="tel"] { width: 95%; padding: 6px; }
+        button { width: 100%; padding: 10px; background: blue; color: white; border: none; }
+    </style>
+</head>
+<body>
+
+<h2>Patient Registration Form</h2>
+
+<form>
+<table>
+    <tr>
+        <td>Patient Name - Text</td>
+        <td><input type="text" placeholder="Enter name"></td>
+    </tr>
+    <tr>
+        <td>Age - Date</td>
+        <td><input type="date"></td>
+    </tr>
+    <tr>
+        <td>Gender - Radio</td>
+        <td>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+        </td>
+    </tr>
+    <tr>
+        <td>ID No. - Text</td>
+        <td><input type="text" placeholder="ID No"></td>
+    </tr>
+    <tr>
+        <td>Patient ID - Text</td>
+        <td><input type="text" placeholder="Patient ID"></td>
+    </tr>
+    <tr>
+        <td>Phone Number - Text</td>
+        <td><input type="tel" placeholder="Phone"></td>
+    </tr>
+    <tr>
+        <td>Health Status/Disability - Checkbox</td>
+        <td>
+            <input type="checkbox"> Disabled
+            <input type="checkbox"> Chronic
+            <input type="checkbox"> None
+        </td>
+    </tr>
+    <tr>
+        <td>Address - Text</td>
+        <td><input type="text" placeholder="Address"></td>
+    </tr>
+    <tr>
+        <td>Marital Status - Radio</td>
+        <td>
+            <input type="radio" name="marital" value="Single"> Single
+            <input type="radio" name="marital" value="Married"> Married
+        </td>
+    </tr>
+    <tr>
+        <td>Next of Kin - Text</td>
+        <td><input type="text" placeholder="Next of kin"></td>
+    </tr>
+    <tr>
+        <td>Weight - Text</td>
+        <td><input type="text" placeholder="Weight in KG"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><button type="submit">Submit Registration</button></td>
+    </tr>
+</table>
+</form>
+
+</body>
+</html>
